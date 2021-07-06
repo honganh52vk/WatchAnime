@@ -5,6 +5,9 @@ body{
 *{
 	font-family: "Source Sans Pro", sans-serif;
 }
+.container{
+	padding: 20px;
+}
 .infodiv{
 	border: 2px solid white;
 	border-radius: 10px;
@@ -13,6 +16,7 @@ body{
 	transition: all .3s ease;
 }
 .anime-image{
+	align-items: center;
 	padding: 20px;
 	width: 260px;
 	float: left;
@@ -21,10 +25,11 @@ body{
 .info{
 	font-size: 20px;
 	color: white;
-	width: calc(100% - 340px);
+	max-width: calc(100% - 340px);
 	margin-left: 300px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 50px;
 	transition: all .3s ease;
+	min-width: 250px;
 }
