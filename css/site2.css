@@ -4,6 +4,7 @@ body{
 }
 *{
 	font-family: "Source Sans Pro", sans-serif;
+	color: white;
 }
 .container{
 	padding: 20px;
@@ -32,4 +33,27 @@ body{
 	padding-right: 50px;
 	transition: all .3s ease;
 	min-width: 250px;
+}
+
+.eplist{
+	border: 2px solid white;
+	border-radius: 10px;
+	display: table;
+	clear: both;
+	transition: all .3s ease;
+	width: 90%;
+	padding: 20px;
+}
+
+.ep_tag{
+	float: left;
+	border: 2px solid white;
+	border-radius: 10px;
+	transition: all .3s ease;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: calc(8% - 20px);
+	margin-left: 3%;
+	text-align: center;
+	margin-top: 10px;
 }
